@@ -1,7 +1,4 @@
 root = true
-root = true
-
-
 [*]
 charset = utf-8
 indent_size = 2
