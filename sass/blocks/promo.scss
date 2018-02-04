@@ -1,0 +1,66 @@
+.promo {
+  padding: 27px 30px 35px;
+  position: relative;
+  &::after {
+    background: silver;
+    content: "";
+    height: 7px;
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+  }
+}
+.promo__heading {
+  margin-bottom: 24px;
+}
+.promo__title {
+  @include heading-reset;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+.promo__action {
+  font-size: 17px;
+  line-height: 20px;
+  color: #63d1bb;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.promo__desc{
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+.promo__params{
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.promo__table-row {
+  height: 40px;
+}
+.promo__param,
+.promo__value{
+border-bottom: 1px solid #ececec;
+font-size: 15px;
+line-height: 24px;
+}
+.promo__param{
+  width: 90px;
+  padding-right: 5px;
+}
+.promo__image {
+  display: inline-block;
+  margin-bottom: 18px;
+}
+.promo__price {
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+}
